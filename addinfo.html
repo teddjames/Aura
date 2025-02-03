@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - Aura</title>
-    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Tell Us About Your Taste - Aura</title>
+    <link rel="stylesheet" href="./css/addinfo.css" />
   </head>
   <body>
     <header class="site-header">
@@ -23,39 +23,26 @@
     </header>
 
     <main>
-      <section class="contact-section">
+      <section class="add-scent-section">
         <div class="container">
-          <h2>Contact Us</h2>
-          <form
-            action="your-server-endpoint"
-            method="post"
-            class="contact-form"
-          >
+          <h2>Share Your Favorite Scent</h2>
+          <form action="submit_scent.php" method="post" class="scent-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required />
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
 
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="favorite-scent">Favorite Notes:</label>
+            <textarea
+              id="favorite-scent"
+              name="favorite_scent"
+              rows="4"
+              required
+            ></textarea>
 
             <button type="submit" class="btn">Submit</button>
           </form>
-        </div>
-      </section>
-
-      <section class="contact-info">
-        <div class="container">
-          <h3>Our Contact Information:</h3>
-          <p>
-            Email:
-            <a href="mailto:aura.perfume@gmail.com">aura.perfume@gmail.com</a>
-          </p>
-          <p>Phone: <a href="tel:+254712345678">07-12-345-678</a></p>
         </div>
       </section>
     </main>
@@ -65,6 +52,6 @@
         <p>&copy; 2025 Aura. All rights reserved.</p>
       </div>
     </footer>
-    <script src="./js/contact.js"></script>
+    <script src="./js/addinfo.js"></script>
   </body>
 </html>
