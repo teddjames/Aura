@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Aura</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="logo">Aura</h1>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="index.html">~Home</a></li>
+            <li><a href="about.html">~About</a></li>
+            <li><a href="product.html">~Buy Now</a></li>
+            <li><a href="addinfo.html">~Add your favourite scent</a></li>
+            <li><a href="contact.html">~Talk to Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form
+            action="your-server-endpoint"
+            method="post"
+            class="contact-form"
+          >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-info">
+        <div class="container">
+          <h3>Our Contact Information:</h3>
+          <p>
+            Email:
+            <a href="mailto:aura.perfume@gmail.com">aura.perfume@gmail.com</a>
+          </p>
+          <p>Phone: <a href="tel:+254712345678">07-12-345-678</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Aura. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>
