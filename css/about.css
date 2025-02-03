@@ -1,0 +1,99 @@
+/* Global Styles: Set dark background, light text, and base font */
+body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #f0f0f0; /* Light text for contrast */
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for consistent width and center alignment */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header & Navigation Styling */
+.site-header {
+  background-color: #2b2b2b; /* Dark header background */
+  padding: 1rem 0;
+  border-bottom: 1px solid #444;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #f0f0f0;
+}
+
+.site-nav ul {
+  list-style: none; /* Remove default list bullets */
+  display: flex; /* Use Flexbox for horizontal layout */
+  justify-content: center; /* Center the navigation items */
+  gap: 1.5rem; /* Space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  text-decoration: none; /* Remove underlines */
+  color: #f0f0f0; /* Light text color */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.site-nav a:hover {
+  color: #bfa06c; /* Accent color on hover */
+}
+
+/* About Section Styling */
+.about-section {
+  padding: 3rem 0; /* Vertical padding for breathing room */
+}
+
+.about-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  text-align: center; /* Center the headline */
+  margin-bottom: 1.5rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: justify; /* Justify paragraphs for a clean look */
+}
+
+/* Footer Styling - note: your footer in the HTML uses the class "site-header" */
+footer.site-header {
+  background-color: #2b2b2b; /* Match header background */
+  padding: 1rem 0;
+  border-top: 1px solid #444;
+  text-align: center;
+}
+
+footer.site-header a {
+  text-decoration: none;
+  color: #bfa06c; /* Accent color for the link */
+  font-weight: bold;
+  margin-right: 1rem; /* Space between the button/link and text */
+}
+
+footer.site-header p {
+  display: inline-block; /* Align with the link */
+  margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .site-nav ul {
+    flex-direction: column; /* Stack navigation items vertically on smaller screens */
+  }
+
+  .about-section p {
+    text-align: left; /* Left-align text on smaller screens for readability */
+  }
+}
