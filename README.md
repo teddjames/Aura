@@ -11,3 +11,4 @@ Email: tedd.james@student.moringaschool.com
 ## License
 GNU General Public License (GPL) v3.0
 ## Link to Project
+https://teddjames.github.io/Aura/
