@@ -7,4 +7,6 @@ A website dedicated to displaying a modern brand of perfume that customers can p
 ## License
 GNU General Public License (GPL) v3.0
 ## Technologies Used
-JS.CSS & HTML
+JS,CSS & HTML
+## Contact 
+Email: tedd.james@student.moringaschool.com
